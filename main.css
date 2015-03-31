@@ -4,7 +4,7 @@
 and the use of border-collapse.*/
 
 .tg  {border-collapse:collapse;border-spacing:0; width: 100%;}
-.tg td, th, .stat{font-family:Arial, 
+.tg td, .tg th, .stat{font-family:Arial, 
 		sans-serif;
 		font-size:14px;
 		padding:10px 5px;
@@ -17,7 +17,7 @@ and the use of border-collapse.*/
 		border-bottom: 1px solid gray;
 	}
 
-.tg tr,{font-family:Arial, 
+.tg tr {font-family:Arial, 
 	sans-serif;
 	font-size:14px;
 	font-weight:normal;
@@ -65,7 +65,34 @@ div.what {
 	}
 
 /*This is a horizontal bar chart*/
-
-.bar-chart { width: 100%;
+.bar-chart {
+	width: 100%;
+	padding: none;
+	margin: none;
+	border: none;
 
 }
+.bar-chart th { 
+	width: 15%;
+	font: bold;
+	border: none;
+	background-color: none;
+	padding: none;
+	margin: none;
+}
+
+.bar-chart div{
+	background-color: #5a92dc;
+	border-radius: 1px;
+	color: white;
+	text-align: left-center;
+	padding: .5%;
+}
+
+
+/*- See more at: http://www.script-tutorials.com/how-to-create-a-lightbox-ultra-using-css-and-javascript/#sthash.D6V5xb9c.dpuf -->*/
+
+ 
+
+
+
