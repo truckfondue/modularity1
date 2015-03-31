@@ -1,6 +1,10 @@
 
+
+/*Styling a table in CSS. Two lessons to note are the :last-child parameter 
+and the use of border-collapse.*/
+
 .tg  {border-collapse:collapse;border-spacing:0; width: 100%;}
-.tg td {font-family:Arial, 
+.tg td, th, .stat{font-family:Arial, 
 		sans-serif;
 		font-size:14px;
 		padding:10px 5px;
@@ -12,21 +16,55 @@
 		border-bottom-width:1px;
 		border-bottom: 1px solid gray;
 	}
-.tg tr{font-family:Arial, 
+
+.tg tr,{font-family:Arial, 
 	sans-serif;
 	font-size:14px;
 	font-weight:normal;
 	padding:10px 5px;
-	/*border-style:solid;
-	border-width:0px;*/
 	overflow:hidden;
 	word-break:normal;
-	/*border-top:none;
-	border-bottom-width:1px;*/}
+	}
+
 .tg tr:last-child td {
 	border-bottom: none;
-}
+	}
 
+/*Making the header of a table bold*/
+
+.header {
+	font: bold;
+	padding: 5px;
+	border: 5px;
+	}
+
+/*Three prominent numbers, three columns and three small labels.*/
+
+.stat {
+	font-size: 2.5em;
+	font: bold;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border: none;
+	}
+
+
+#stats {
+	border-top-style: solid; 
+	border-top-width: 1px;
+	border-top-color: gray;
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+	border-bottom-color: gray;
+	width: 25%;
+	}
+
+div.what {
+	color: gray;
+	font-size: .8em;
+	}
+
+/*This is a horizontal bar chart*/
 
 .bar-chart { width: 100%;
 
