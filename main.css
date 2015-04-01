@@ -90,9 +90,71 @@ div.what {
 }
 
 
-/*- See more at: http://www.script-tutorials.com/how-to-create-a-lightbox-ultra-using-css-and-javascript/#sthash.D6V5xb9c.dpuf -->*/
+/*
+.lightbox {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	top: 0px;
+	background: rgba(18, 21, 24, 0.9);
+}
 
+.content {
+	border-radius: 6px;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	left: 10%;
+	transform: translateY(-50%);
+	background-color: white;
+	padding: 10px;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.content a:link {
+	float: right;
+	color: red;
+}
+
+.content a:visited {
+	color: red;
+}
+
+*/
  
+.float-left {
+    float: left;
+    padding-right: 10px;
+}
+
+.overflow-hidden, .clear {
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
