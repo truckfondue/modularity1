@@ -2,44 +2,47 @@
 
 /*Styling a table in CSS. Two lessons to note are the :last-child parameter 
 and the use of border-collapse.*/
-
-.tg  {border-collapse:collapse;border-spacing:0; width: 100%;}
-.tg td, .tg th, .stat{font-family:Arial, 
-		sans-serif;
-		font-size:14px;
-		padding:10px 5px;
-		border-style:none;
-		border-width:0px;
-		overflow:hidden;
-		word-break:normal;
-		border-top: none;
-		border-bottom-width:1px;
-		border-bottom: 1px solid gray;
-	}
-
-.tg tr {font-family:Arial, 
-	sans-serif;
-	font-size:14px;
-	font-weight:normal;
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0; 
+	width: 100%;
+}
+.tg td, .tg th, .stat{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
 	padding:10px 5px;
-	overflow:hidden;
-	word-break:normal;
-	}
+	border-style: none;
+	border-width: 0px;
+	overflow: hidden;
+	word-break: normal;
+	border-top: none;
+	border-bottom-width: 1px;
+	border-bottom: 1px solid gray;
+}
+
+.tg tr {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	overflow: hidden;
+	word-break: normal;
+}
 
 .tg tr:last-child td {
 	border-bottom: none;
-	}
+}
+
 
 /*Making the header of a table bold*/
-
 .header {
 	font: bold;
 	padding: 5px;
 	border: 5px;
-	}
+}
+
 
 /*Three prominent numbers, three columns and three small labels.*/
-
 .stat {
 	font-size: 2.5em;
 	font: bold;
@@ -47,7 +50,7 @@ and the use of border-collapse.*/
 	border-spacing: 0px;
 	border: none;
 	text-align: center;
-	}
+}
 
 
 #stats {
@@ -60,12 +63,13 @@ and the use of border-collapse.*/
 	width: 25%;
 	}
 
-div.what {
+div.label {
 	color: gray;
 	font-size: .8em;
 	text-align: center;
 	margin-bottom: 10px;
-	}
+}
+
 
 /*This is a horizontal bar chart*/
 .bar-chart {
@@ -93,8 +97,8 @@ div.what {
 }
 
 
-/*
-.lightbox {
+/*This is a lightbox the easy way*/
+/*.lightbox {
 	position: fixed;
 	right: 0px;
 	bottom: 0px;
@@ -114,26 +118,30 @@ div.what {
 	padding: 10px;
 	width: 80%;
 	margin: 0 auto;
-
 }
 
 .content a:link {
 	float: right;
-	color: red;
-}
+	color: white;
+	background-color: pink;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 3px;
+}*/
 
+
+/*Comment Stream*/
 .content a:visited {
 	color: red;
 }
 
-*/
  
 .float-left {
     float: left;
     padding-right: 10px;
 }
 
-.overflow-hidden, .clear {
+.overflow-hidden {
 	overflow: hidden;
 }
 
